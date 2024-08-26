@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+}
+
+main{
+    width: 1366px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1366px;
+    height: 200px;
+    background-color: rgb(8, 8, 62);
+    text-align: center;
+}
+/*CLASES DE HEADER*/
+header img{
+    height: 90%;
+}
+
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(3, 76, 3);
+    /*Propiedades solo para NAV*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*CALSES DE NAV*/
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "New Amsterdam", sans-serif;
+    transition: 0.5s;
+
+}
+nav a:hover{
+    background-color:rgba(165, 42, 42, 0.822);
+    transform: scale(1.2);
+}
+
+
+section{
+    width: 1366px;
+    height: 1500px;
+    background-image: url(../imgs/GT_wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+/*CLASES DE SECTION*/
+section .personaje{
+    width: 1300px;
+    height: 350px;
+    margin-left: 33px; /*crea un margen a la izquierda*/
+    margin-top: 20px;
+    float: left;
+}
+.personaje .foto{
+    width: 400px;
+    height: 350px;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    
+    border: 5px beige solid;
+}
+.foto img{ /**/
+    height: 100%;
+}
+.personaje .texto{
+    width: 800px;
+    height: 350px;
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+    background-color: rgba(245, 245, 220, 0.68);
+    
+}
+
+
+footer{
+    width: 1366px;
+    height: 250px;
+    background-color: black;
+}
